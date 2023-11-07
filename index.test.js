@@ -15,7 +15,7 @@ test("creates a SHA256 hash signature using the secret", async () => {
 
 // shows how the runner will run a javascript action with env / stdout protocol
 test("test runs", () => {
-  process.env["WEBHOOK_SECRET"] = "secret";
+  process.env["SIGNING_SECRET"] = "secret";
   const codePath = path.join(__dirname, "sign.js");
   const result = cp
     .execSync(`node ${codePath}`, { env: process.env })
