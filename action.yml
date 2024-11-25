@@ -15,5 +15,5 @@ outputs:
   payload:
     description: "The original request body payload"
 runs:
-  using: "node16"
+  using: "node20"
   main: "dist/index.js"
