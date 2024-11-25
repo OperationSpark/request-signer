@@ -1,6 +1,6 @@
 {
   "name": "@operationspark/request-signer",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "GitHub Actions to sign requests",
   "main": "index.js",
   "scripts": {
